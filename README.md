@@ -68,6 +68,7 @@ Mutation profiles
 Target: Log-transformed IC50 values
 
 🧠 Model Architecture
+
 🔹 1️⃣ Transformer-Based Multi-Omics Encoder
 
 PCA-reduced omics features (150 per modality)
