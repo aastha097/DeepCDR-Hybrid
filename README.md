@@ -27,7 +27,7 @@ R² Score: 0.9721
 
 This establishes a new benchmark in computational precision oncology.
 
-Project Objectives
+🎯 Project Objectives
 
 This project aims to:
 
@@ -68,7 +68,6 @@ Mutation profiles
 Target: Log-transformed IC50 values
 
 🧠 Model Architecture
-
 🔹 1️⃣ Transformer-Based Multi-Omics Encoder
 
 PCA-reduced omics features (150 per modality)
@@ -136,7 +135,6 @@ Learning rate reduction
 Seed = 42 (Reproducibility)
 
 Hardware: NVIDIA GPU with CUDA acceleration
-
 Results:-
 <img width="404" height="317" alt="image" src="https://github.com/user-attachments/assets/9bbb6258-11dc-4761-beba-bbfb34da38fe" />
 <img width="647" height="405" alt="image" src="https://github.com/user-attachments/assets/f4e4ad8c-499d-4365-bf3d-8e79446b2a01" />
