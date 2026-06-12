@@ -1,31 +1,31 @@
 # DeepCDR-Hybrid
 Transformer-enhanced multi-modal deep learning framework for cancer drug response prediction using hybrid drug representations and cross-attention fusion.
 
-📌 Abstract
+Abstract
 
 In personalized medicine, predicting drug response in cancer patients requires integrating molecular drug structures with complex multi-omics profiles. Traditional computational models struggle to capture cross-modal interactions between chemical compounds and genomic features.
 
 DeepCDR-Hybrid introduces a transformer-enhanced multi-modal deep learning framework featuring:
 
-✅ Transformer-based multi-head self-attention for multi-omics integration
+1.Transformer-based multi-head self-attention for multi-omics integration
 
-✅ Hybrid drug representation (ChemBERTa embeddings + Morgan fingerprints)
+2.Hybrid drug representation (ChemBERTa embeddings + Morgan fingerprints)
 
-✅ Bidirectional cross-attention fusion mechanisms
+3.Bidirectional cross-attention fusion mechanisms
 
-✅ Integrated Explainable AI (XAI) components
+4.Integrated Explainable AI (XAI) components
 
 Evaluated on the Cancer Cell Line Encyclopedia (CCLE) dataset containing 23,367 cell line–drug pairs, the model achieves: RMSE: 0.4289; Pearson Correlation: 0.9869; R² Score: 0.9721
 53.7% improvement over DeepCDR baseline
 
 This establishes a new benchmark in computational precision oncology.
 
-🎯 Project Objectives
+Project Objectives
 
 This project aims to:
 Integrate gene expression, DNA methylation, and mutation data using transformer architectures,Combine structural and semantic drug representationsLearn complex cross-modal interactions,Achieve state-of-the-art,IC50 prediction performance,Provide explainable predictions for biomedical interpretability
 
-📂 Dataset
+Dataset
 
 Primary dataset:
 
@@ -44,7 +44,7 @@ Mutation profiles
 
 Target: Log-transformed IC50
 
-⚙️ Training Configuration
+Training Configuration
 
 Framework: TensorFlow 2.x (Keras API)
 Optimizer: Adam (LR = 1e-4)
@@ -64,7 +64,7 @@ Results:-
 ✔ 53.7% RMSE reduction vs DeepCDR
 ✔ Strong generalization (minimal train-test gap)
 
-🧪 Key Innovations
+Key Innovations
 
 Transformer-based cross-omics modeling
 Hybrid drug semantic + structural embeddings
